@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Tomcat LogIn Test Suite" duration-ms="19607" started-at="2019-09-09T09:29:11Z" finished-at="2019-09-09T09:29:30Z">
+    <groups>
+    </groups>
+    <test name="Tomcat LogIn Test" duration-ms="19607" started-at="2019-09-09T09:29:11Z" finished-at="2019-09-09T09:29:30Z">
+      <class name="com.training.sanity.tests.Test_InvalidLogin$LoginTests">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.Test_InvalidLogin$LoginTests@4563e9ab]" name="setUpBeforeClass" is-config="true" duration-ms="10" started-at="2019-09-09T14:59:11Z" finished-at="2019-09-09T14:59:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.Test_InvalidLogin$LoginTests@4563e9ab]" name="setUp" is-config="true" duration-ms="5277" started-at="2019-09-09T14:59:11Z" finished-at="2019-09-09T14:59:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.Test_InvalidLogin$LoginTests@4563e9ab]" name="validLoginTest" duration-ms="3577" started-at="2019-09-09T14:59:16Z" finished-at="2019-09-09T14:59:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Test_InvalidLogin$LoginTests@4563e9ab]" name="tearDown" is-config="true" duration-ms="1799" started-at="2019-09-09T14:59:19Z" finished-at="2019-09-09T14:59:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.Test_InvalidLogin$LoginTests -->
+      <class name="com.training.sanity.tests.Test_Login">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.Test_Login@11531931]" name="setUpBeforeClass" is-config="true" duration-ms="1" started-at="2019-09-09T14:59:21Z" finished-at="2019-09-09T14:59:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.Test_Login@11531931]" name="setUp" is-config="true" duration-ms="3713" started-at="2019-09-09T14:59:21Z" finished-at="2019-09-09T14:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.Test_Login@11531931]" name="validLoginTest" duration-ms="3478" started-at="2019-09-09T14:59:25Z" finished-at="2019-09-09T14:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Test_Login@11531931]" name="tearDown" is-config="true" duration-ms="1734" started-at="2019-09-09T14:59:28Z" finished-at="2019-09-09T14:59:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.Test_Login -->
+    </test> <!-- Tomcat LogIn Test -->
+  </suite> <!-- Tomcat LogIn Test Suite -->
+</testng-results>
